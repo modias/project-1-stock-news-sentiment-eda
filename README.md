@@ -65,7 +65,9 @@ This project looks at whether stock prices actually move because of news, or if 
 ## Charts and What They Show
 
 ### Chart 1 — Daily Return vs. Sentiment
-A scatter plot with sentiment on one axis and price movement on the other, one dot per stock per day. One thing worth noting: every single day in this data had positive sentiment overall — there were no negative days at all. So this chart really shows "how strong was the positive sentiment" vs. price movement, not positive vs. negative. The dots don't follow any obvious pattern — some high-sentiment days had big drops, and the single biggest gain (Meta) happened on a day with lower sentiment, not the highest.
+A scatter plot with sentiment on one axis and price movement on the other, one dot per stock per day. One thing worth noting: every single day in this data had positive sentiment overall — there were no negative days at all. So this chart really shows "how strong was the positive sentiment" vs. price movement, not positive vs. negative. The dots don't follow any obvious pattern — some high-sentiment days had big drops, and the single biggest gain (Meta) happened on a day with lower sentiment, not the highest. 
+![Daily Return vs. Sentiment](./daily_return_vs_sentiment.png)
+
 
 ### Chart 2 — Correlation by Stock
 A bar chart showing how closely sentiment and return moved together for each stock:
@@ -76,7 +78,9 @@ A bar chart showing how closely sentiment and return moved together for each sto
 | GOOGL | −0.86 |
 | META | −0.89 |
 | MSFT | −0.74 |
-| NVDA | not enough data to calculate |
+| NVDA | not enough data to calculate | 
+![Correlation by ticker bar chart](./Correlation_Between_Sentiment_and_Return.png)
+
 
 ---
 
